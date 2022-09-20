@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "typescript": "^4.8.3"
   },
@@ -10,5 +11,8 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "prettier": "^2.7.1"
+  },
+  "parserOptions": {
+    "project": "./tsconfig.json"
   }
 }
